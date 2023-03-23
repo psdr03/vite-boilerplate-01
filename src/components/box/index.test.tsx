@@ -1,5 +1,5 @@
 import { render } from '@testing-library/react';
-import Box from '.';
+import { Box } from '.';
 
 describe('test box', () => {
   it('should render box', () => {

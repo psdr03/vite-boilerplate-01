@@ -1,6 +1,6 @@
 import styles from './box.module.scss';
 
-const Box = () => {
+export const Box = () => {
   const { box } = styles;
   return (
     <div className={box}>
@@ -8,5 +8,3 @@ const Box = () => {
     </div>
   );
 };
-
-export default Box;
