@@ -8,7 +8,3 @@
 - jest
 - testing library
 - scss modules
-
-### Sources
-
-Jest - https://egghead.io/lessons/jest-adding-jest-with-typescript-support-to-a-vite-application

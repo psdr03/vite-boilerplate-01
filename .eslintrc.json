@@ -23,12 +23,22 @@
       }
     }
   },
-  "plugins": ["react"],
+  "plugins": ["react", "jest"],
   "rules": {
     "quotes": ["error", "single"],
     "semi": ["error", "always"],
     "react/react-in-jsx-scope": "off",
     "import/extensions": ["error", "never"],
-    "@typescript-eslint/explicit-function-return-type": "off"
+    "@typescript-eslint/explicit-function-return-type": "off",
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": [
+          "test.{ts,tsx}", // repos with a single test file
+          "**/*{.,_}{test,spec}.{ts,tsx}"
+        ],
+        "optionalDependencies": false
+      }
+    ]
   }
 }
