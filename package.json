@@ -13,7 +13,8 @@
   "jest": {
     "testEnvironment": "jsdom",
     "moduleNameMapper": {
-      "\\.(css|less)$": "identity-obj-proxy"
+      "\\.(css|less|scss)$": "identity-obj-proxy",
+      "@styles": "<rootDir>/src/styles/$1"
     },
     "setupFilesAfterEnv": [
       "<rootDir>/jest.setup.js"
