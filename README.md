@@ -8,3 +8,8 @@
 - jest
 - testing library
 - scss modules
+
+## Folders
+
+/components - individual components or componetn groups
+/styles - global styles, place global styles here for colors, sizing, fonts, etc
